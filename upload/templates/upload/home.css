@@ -14,7 +14,7 @@
 .main{
     position: absolute;
     background: rgba(0, 0, 0, 0.25);
-    background-image: url(./img/lion.jpeg);
+    background-image: url('lion.jpeg');
     background-repeat: no-repeat;
     background-size:contain;
     width: 1700px;
@@ -23,12 +23,24 @@
 }
 #process{
     margin-top: 2vw;
+    width: 100%;
     position: relative;
     filter: opacity(0.9)  drop-shadow(0 0 0 rgba(179, 154, 120, 0.848));
     background-image: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
 }
 .btn{
     margin-left: 26vw;
     font-weight: 400;
     background-color:rgba(141, 121, 95, 0.848);
+}
+
+.form_card{
+    margin-left: 200px;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px;
 }

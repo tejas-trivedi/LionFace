@@ -57,7 +57,7 @@ ROOT_URLCONF = 'LionFace.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':  [os.path.join(SETTINGS_PATH, 'templates')],
+        'DIRS':  [os.path.join(SETTINGS_PATH, 'upload/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,9 +123,9 @@ USE_TZ = True
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-STATIC_URL = '/templates/upload/'
+STATIC_URL = 'upload/templates/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'templates/upload')
+    os.path.join(BASE_DIR,'upload/templates/')
 ]
 
 # Default primary key field type

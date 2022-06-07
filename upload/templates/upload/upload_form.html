@@ -21,21 +21,21 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="templates/upload/upeslogo.png" alt="">
-            <span class="nav-text">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp LION FACE DETECTION MODEL</span>
+            <span class="nav-text"> LION FACE DETECTION MODEL</span>
           </a>
         </div>
       </nav>
       <div style="position: absolute;">
       <div class="main"><br> </div>
       <div id="process">
-          <img src="templates/upload/process.jpeg" height="800px" alt="">
+          <img src="templates/upload/process.jpeg" height="610px" alt="">
           <div class="form_card">
           <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Submit</button>
 </form></div>
-          
+
           <!--<input class="btn" type="submit" value="Upload the Photo">-->
       </div>
     </div>

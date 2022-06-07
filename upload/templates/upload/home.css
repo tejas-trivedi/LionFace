@@ -1,6 +1,6 @@
 .nav-text {
     margin-left: 150px;
-    text-decoration: none;
+    text-decoration: underline;
     color: #D07373;
     font-family: 'Lexend Peta';
     font-style: normal;
@@ -17,8 +17,8 @@
     background-image: url('lion.jpeg');
     background-repeat: no-repeat;
     background-size:contain;
-    width: 1700px;
-    height: 900px;
+    width: 1350px;
+    height: 700px;
     opacity: 0.5;
 }
 #process{
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
 }
 .btn{
     margin-left: 26vw;
